@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/utils/colors.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({ Key? key }) : super(key: key);
@@ -20,9 +21,9 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             //svg image
             SvgPicture.asset(
-              'assets/ic_instagram.svg', 
-              color: primaryColor,
-              height: 64,
+                'assets/ic_instagram.svg',
+                color: primaryColor,
+                height: 64,
               ),
             //text field input for email
             const SizedBox(height: 64),
@@ -37,6 +38,6 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 }
 
-class SvgPicture {
-  static asset(String s, {Color color, int height}) {}
-}
+// class SvgPicture {
+//   static asset(String s, {Color color, int height}) {}
+// }
