@@ -5,6 +5,7 @@ import 'package:flutter_application/responsive/mobile_screen_layout.dart';
 import 'package:flutter_application/responsive/responsive_layout_screen.dart';
 import 'package:flutter_application/responsive/web_screen_layout.dart';
 import 'package:flutter_application/screens/login_screen.dart';
+import 'package:flutter_application/screens/signup_screen.dart';
 import 'package:flutter_application/utils/colors.dart';
 
 void main() async {
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
       //   mobileScreenLayout: MobileScreenLayout(), 
       //   webScreenLayout: WebScreenLayout(),
       //   ),
-      home: LoginScreen(),
+      home: SignupScreen(),
     );
   }
 }
