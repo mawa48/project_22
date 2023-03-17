@@ -42,7 +42,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 color: primaryColor,
                 height: 64,
               ),
-              const SizedBox(height: 64),
+              const SizedBox(height: 40),
               //circular widget to accept and show our selected file
               Stack(
                 children: [
@@ -62,6 +62,9 @@ class _SignupScreenState extends State<SignupScreen> {
                     ),
                   )
                 ],
+              ),
+              const SizedBox(
+                height: 15,
               ),
               //text field input for username
               TextFieldInput(
