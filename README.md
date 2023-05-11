@@ -1,48 +1,28 @@
-# Instagram Clone
+# InstaShim
 
-A completely Responsive Instagram App- Works on Android, iOS & Web! 
+## A basic Instagram UI built with flutter framework and Firebase as backend.
+---
+## Features offered:
+- Email Registration
+- Login-out credential management
+- Storage access management
+- Camera API access management
+- Basic search options
+- Story and post sharing capabilities
+- Live feed scrolling options
+- Profile page with stock Instagram like looks
 
-## Features
-- Responsive Instagram UI
-- Email & Password Authentication
-- Share Posts with Caption
-- Display Posts with Caption
-- Like & Comment on Posts
-- Search Users
-- Follow Users
-- Display User Posts, Followers & Following
-- EVERYTHING REAL TIME
-- Sign Out
+## Future Scopes:
+- Responsive UI
+- Web app implementation
 
-## YouTube
-I have created a tutorial based on this, do check it out on my channel [Rivaan Ranawat](https://youtu.be/BBccK1zTgxw) 
+## Problems faced:
+- Due to recent Firebase Spark plan changes, public database has to be used and the credentials are not live but the action response is present.
 
-<p align="center">
-  <img width="600" src="https://github.com/RivaanRanawat/instagram-flutter-clone/blob/master/screenshot.png" alt="Youtube Tutorial Image">
-</p>
+## Helps taken from:
+- [Pub Dev](https://www.pub.dev)
+- [Firebase setup - Medium](https://medium.com/enappd/adding-firebase-to-your-flutter-app-281b8f391b47)
 
-
-## Installation
-After cloning this repository, migrate to ```instagram-flutter-clone``` folder. Then, follow the following steps:
-- Create Firebase Project
-- Enable Authentication
-- Make Firestore Rules
-- Create Android, iOS & Web Apps
-- Take Web FirebaseOptions and put it in main function in main.dart file replacing my keys (My keys wont work as I deleted my project)
-Then run the following commands to run your app:
-```bash
-  flutter pub get
-  open -a simulator (to get iOS Simulator)
-  flutter run
-  flutter run -d chrome --web-renderer html (to see the best output)
-```
-
-## Tech Used
-**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
-
-**Client**: Flutter, Provider
-    
-## Feedback
-
-If you have any feedback, please reach out to me at namanrivaan@gmail.com
-
+## Assets taken from:
+- [Icons](https://mui.com/material-ui/material-icons/)
+- [Unsplash](https://unsplash.com/)
